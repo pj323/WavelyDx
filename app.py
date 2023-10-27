@@ -8,10 +8,10 @@ from pydub import AudioSegment
 app = Flask(__name__)
 
 # AWS S3 Configuration
-S3_BUCKET = 'wavelydx'
-S3_ACCESS_KEY = 'AKIARGOGFJTRXIGQ5KVV'
-S3_SECRET_KEY = 'PxaeNVhIrvqShFn8Mrg7MXC81tmclUMEGheCUYbp'
-S3_REGION = 'us-east-2'
+S3_BUCKET = 'wavelydx' 
+S3_ACCESS_KEY = 'your-access-key'
+S3_SECRET_KEY = 'your-secret-key'
+S3_REGION = 'your-region'
 
 s3 = boto3.client(
     's3',
